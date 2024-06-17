@@ -19,27 +19,8 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "Hotels" */ "../views/HotelResults.vue"),
   },
-  {
-    path: "/hotels/:name",
-    name: "HotelDetails",
-    props: true,
-    component: () =>
-      import(/* webpackChunkName: "Hotels" */ "../views/HotelDetails.vue"),
-  },
-  {
-    path: "/reservation",
-    name: "Reservation",
-    props: true,
-    component: () =>
-      import(/* webpackChunkName: "Reservation" */ "../views/Reservation.vue"),
-  },
-  {
-    path: "/payment",
-    name: "Payment",
-    props: true,
-    component: () =>
-      import(/* webpackChunkName: "Reservation" */ "../views/Payment.vue"),
-  },
+  
+  
   {
     path: "/favorites",
     name: "Favorites",
