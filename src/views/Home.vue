@@ -298,7 +298,7 @@ export default {
   width: 40px;
   height: 40px;
   background-color: white;
-  color: #005999;
+  color: #990014;
   border: 1px solid #005999;
   border-radius: 3px;
 }
@@ -348,9 +348,9 @@ h2 {
 }
 
 .destination1 {
-  /* background: url(https://www.pexels.com/photo/bedroom-interior-setup-271624/)
+  background: url(https://www.pexels.com/photo/bedroom-interior-setup-271624/)
     no-repeat center center;
-  background-size: cover; */
+  background-size: cover;
   
 }
 .destination2 {

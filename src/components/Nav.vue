@@ -21,19 +21,10 @@
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
             <router-link class="nav-link active" :to="{ name: 'Home' }">
-              <i class="fa fa-bed me-2" aria-hidden="true"></i> Stays
+              <i class="fa fa-bed me-2" aria-hidden="true"></i> Hotel
             </router-link>
           </li>
-          <li class="nav-item">
-            <router-link class="nav-link" :to="{ name: 'Home' }">
-              <i class="fa fa-plane me-2" aria-hidden="true"></i> Flights
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" :to="{ name: 'Home' }">
-              <i class="fa fa-car me-2" aria-hidden="true"></i> Car Rentals
-            </router-link>
-          </li>
+          
           <li class="nav-item">
             <router-link class="nav-link" :to="{ name: 'Favorites' }">
               <i class="fa fa-heart me-2" aria-hidden="true"></i> Favorites
@@ -53,7 +44,7 @@ export default {
 
 <style scoped>
 .navbar {
-  background-color: #043580;
+  background-color: #55b341;
   color: white;
   padding: 20px 50px;
 }
@@ -79,6 +70,6 @@ export default {
 .nav-item:first-child {
   border: 1px solid white;
   border-radius: 30px;
-  background-color: #1a4a8d;
+  background-color: #912742;
 }
 </style>

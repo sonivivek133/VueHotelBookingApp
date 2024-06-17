@@ -48,6 +48,7 @@
           <i :class="isFavorite(hotel) ? 'fa fa-heart' : 'fa fa-heart-o'" aria-hidden="true"></i>
           {{ isFavorite(hotel) ? 'Remove from Favorites' : 'Add to Favorites' }}
         </button>
+        <button class="fav-btn mt-2"> Book Now</button>
       </div>
     </div>
   </div>
